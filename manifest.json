@@ -1,0 +1,94 @@
+{
+  "required_api_version": "^2.0",
+  "name": "Currency Converter",
+  "description": "Convert fiat and crypto currencies using live exchange rates from multiple providers.",
+  "developer_name": "Dan Ferreira",
+  "icon": "images/currency-converter.svg",
+  "options": {
+    "query_debounce": 0.5
+  },
+  "preferences": [
+    {
+      "id": "kw",
+      "type": "keyword",
+      "name": "Currency Converter",
+      "description": "Activation keyword",
+      "default_value": "cc"
+    },
+    {
+      "id": "provider",
+      "type": "select",
+      "name": "Fiat Provider",
+      "description": "Exchange rate source for fiat currencies. Free providers require no API key. If the selected provider fails, the plugin falls back through the free providers automatically.",
+      "default_value": "frankfurter",
+      "options": [
+        { "text": "Frankfurter (free, no key)", "value": "frankfurter" },
+        { "text": "ECB XML Feed (free, no key)", "value": "ecb" },
+        { "text": "Fawaz Exchange API (free, no key, 200+ currencies)", "value": "fawaz" },
+        { "text": "ExchangeRate-API (API key required, 1500 req/mo)", "value": "exchangerate_api" },
+        { "text": "Open Exchange Rates (API key required, 1000 req/mo)", "value": "openexchangerates" },
+        { "text": "CurrencyAPI (API key required, 300 req/mo)", "value": "currencyapi" }
+      ]
+    },
+    {
+      "id": "api_key",
+      "type": "input",
+      "name": "Fiat API Key",
+      "description": "API key for the selected fiat provider (leave blank for free providers).",
+      "default_value": ""
+    },
+    {
+      "id": "crypto_provider",
+      "type": "select",
+      "name": "Crypto Provider",
+      "description": "Price source for cryptocurrency conversions. All three offer a free tier.",
+      "default_value": "coingecko",
+      "options": [
+        { "text": "CoinGecko (free Demo key recommended for stability)", "value": "coingecko" },
+        { "text": "Binance (no key needed)", "value": "binance" },
+        { "text": "Kraken (no key needed)", "value": "kraken" }
+      ]
+    },
+    {
+      "id": "crypto_api_key",
+      "type": "input",
+      "name": "CoinGecko API Key",
+      "description": "Free Demo API key from coingecko.com (no credit card). Provides stable 30 req/min instead of unreliable 5-15 req/min without key.",
+      "default_value": ""
+    },
+    {
+      "id": "default_from",
+      "type": "input",
+      "name": "Default From Currency",
+      "description": "3-letter ISO code used when no source currency is typed (e.g. USD).",
+      "default_value": "USD"
+    },
+    {
+      "id": "default_to",
+      "type": "input",
+      "name": "Default To Currency",
+      "description": "3-letter ISO code used when no target currency is typed (e.g. EUR).",
+      "default_value": "EUR"
+    },
+    {
+      "id": "cache_duration",
+      "type": "select",
+      "name": "Cache Duration",
+      "description": "How long to reuse cached exchange rates before fetching fresh data.",
+      "default_value": "3600",
+      "options": [
+        { "text": "24 hours", "value": "86400" },
+        { "text": "1 hour (default)", "value": "3600" },
+        { "text": "5 minutes", "value": "300" },
+        { "text": "30 seconds", "value": "30" }
+      ]
+    },
+    {
+      "id": "display_locale",
+      "type": "input",
+      "name": "Display Locale",
+      "description": "Babel locale code for Alt+Enter formatted output (e.g. pt_BR, en_US, de_DE). Leave blank to use each currency's own native locale.",
+      "default_value": ""
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64" height="64" version="1.1" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+<g transform="matrix(.11894 0 0 .11894 1.6333 1.6333)">
+<circle cx="256" cy="256" r="254.15" fill="#006680" style="paint-order:stroke fill markers"/>
+<circle cx="256" cy="256" r="236.97" fill="#fff" style="paint-order:stroke fill markers"/>
+<circle cx="256" cy="256" r="220.47" fill="#006680" style="paint-order:stroke fill markers"/>
+</g>
+<g fill="#ffffff" font-family="Calibri" font-size="25.373px" font-weight="bold" stroke-linecap="round" stroke-linejoin="round" stroke-width=".17846">
+<text x="25.682285" y="25.972813" style="font-variant-caps:normal;font-variant-east-asian:normal;font-variant-ligatures:normal;font-variant-numeric:normal;paint-order:stroke fill markers" xml:space="preserve"><tspan x="25.682285" y="25.972813" stroke-width=".17846">$</tspan></text>
+<text x="39.066063" y="31.508842" style="font-variant-caps:normal;font-variant-east-asian:normal;font-variant-ligatures:normal;font-variant-numeric:normal;paint-order:stroke fill markers" xml:space="preserve"><tspan x="39.066063" y="31.508842" stroke-width=".17846">€</tspan></text>
+<text x="39.047478" y="49.567978" style="font-variant-caps:normal;font-variant-east-asian:normal;font-variant-ligatures:normal;font-variant-numeric:normal;paint-order:stroke fill markers" xml:space="preserve"><tspan x="39.047478" y="49.567978" stroke-width=".17846">£</tspan></text>
+<text x="24.269901" y="54.18177" style="font-variant-caps:normal;font-variant-east-asian:normal;font-variant-ligatures:normal;font-variant-numeric:normal;paint-order:stroke fill markers" xml:space="preserve"><tspan x="24.269901" y="54.18177" stroke-width=".17846">₿</tspan></text>
+<text x="12.289839" y="31.508842" style="font-variant-caps:normal;font-variant-east-asian:normal;font-variant-ligatures:normal;font-variant-numeric:normal;paint-order:stroke fill markers" xml:space="preserve"><tspan x="12.289839" y="31.508842" stroke-width=".17846">¥</tspan></text>
+<text x="13.188066" y="49.400723" style="font-variant-caps:normal;font-variant-east-asian:normal;font-variant-ligatures:normal;font-variant-numeric:normal;paint-order:stroke fill markers" xml:space="preserve"><tspan x="13.188066" y="49.400723" stroke-width=".17846">₣</tspan></text>
+</g>
+</svg>

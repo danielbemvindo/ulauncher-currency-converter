@@ -1,0 +1,12 @@
+{
+  "BTC":  { "name": "Bitcoin",   "rank": 1,  "symbol": "₿",    "digits": 8, "coingecko_id": "bitcoin",      "kraken_pair": "XBTUSD",  "binance_symbol": "BTCUSDT"  },
+  "ETH":  { "name": "Ethereum",  "rank": 2,  "symbol": "Ξ",    "digits": 8, "coingecko_id": "ethereum",     "kraken_pair": "ETHUSD",  "binance_symbol": "ETHUSDT"  },
+  "USDT": { "name": "Tether",    "rank": 3,  "symbol": "₮",    "digits": 2, "coingecko_id": "tether",       "kraken_pair": null,      "binance_symbol": "USDTUSDC" },
+  "BNB":  { "name": "BNB",       "rank": 4,  "symbol": "BNB",  "digits": 8, "coingecko_id": "binancecoin",  "kraken_pair": null,      "binance_symbol": "BNBUSDT"  },
+  "XRP":  { "name": "XRP",       "rank": 5,  "symbol": "XRP",  "digits": 6, "coingecko_id": "ripple",       "kraken_pair": "XRPUSD",  "binance_symbol": "XRPUSDT"  },
+  "USDC": { "name": "USD Coin",  "rank": 6,  "symbol": "USDC", "digits": 2, "coingecko_id": "usd-coin",     "kraken_pair": null,      "binance_symbol": "USDCUSDT" },
+  "SOL":  { "name": "Solana",    "rank": 7,  "symbol": "SOL",  "digits": 8, "coingecko_id": "solana",       "kraken_pair": "SOLUSD",  "binance_symbol": "SOLUSDT"  },
+  "TRX":  { "name": "TRON",      "rank": 8,  "symbol": "TRX",  "digits": 6, "coingecko_id": "tron",         "kraken_pair": null,      "binance_symbol": "TRXUSDT"  },
+  "DOGE": { "name": "Dogecoin",  "rank": 9,  "symbol": "Ð",    "digits": 8, "coingecko_id": "dogecoin",     "kraken_pair": "DOGEUSD", "binance_symbol": "DOGEUSDT" },
+  "ADA":  { "name": "Cardano",   "rank": 10, "symbol": "₳",    "digits": 6, "coingecko_id": "cardano",      "kraken_pair": "ADAUSD",  "binance_symbol": "ADAUSDT"  }
+}
