@@ -6,42 +6,42 @@
 
 ---
 
-Convert between 170+ fiat currencies and the top 10 cryptocurrencies without leaving your keyboard. Rates are fetched from multiple free providers with automatic fallback, cached locally so repeated queries are instant, and formatted according to each currency's native locale.
+Convert between 170+ fiat currencies and the top 10 cryptocurrencies without leaving your keyboard. Rates are fetched from multiple free providers with automatic fallback, cached locally so repeated queries are instant, and formatted according to each currency's native locale or your own.
 
 ## Screenshots
 
 **Regular conversion** — `cc 520.12 usd eur`
 
-![Regular conversion](/.github/screenshots/screenshot-cc-520.12-usd-eur.png)
+![Regular conversion](https://github.com/user-attachments/assets/65f67b37-0cf0-417c-85cf-ac75e91eb93e)
 
-**Using defaults** — just type an amount
+**Using defaults** — just type an amount, defaults set in preferences are used
 
-![Using defaults](/.github/screenshots/screenshot-cc-520.12.png)
+![Using defaults](https://github.com/user-attachments/assets/781b48e0-c24f-4ad1-816b-d03ccd44c27f)
 
-**Reversed defaults** — typing the To currency alone flips the direction
+**Reversed defaults shorthand** — typing the "To" currency alone (set in preferences) flips the direction
 
-![Reversed defaults](/.github/screenshots/screenshot-cc-4269-eur-reversed-defaults.png)
+![Reversed defaults](https://github.com/user-attachments/assets/8d102d0e-f3da-48fb-b1b0-f95e15899d20)
 
 **Cryptocurrency** — `cc 0.5 btc usd`
 
-![Bitcoin conversion](/.github/screenshots/screenshot-cc-0.5-btc-usd.png)
+![Bitcoin conversion](https://github.com/user-attachments/assets/623802dc-3c8e-481a-ba36-aedd2a100047)
 
 **Search by code** — `cc ?us`
 
-![Search by code](/.github/screenshots/screenshot-cc-questionmark-us.png)
+![Search by code](https://github.com/user-attachments/assets/f785e112-30b6-4adc-b034-23b6f9b4aede)
 
 **Search by name** — `cc ?dollar`
 
-![Search by name](/.github/screenshots/screenshot-cc-question-mark-dollar.png)
+![Search by name](https://github.com/user-attachments/assets/3d6a6b4e-07cd-4fd5-aa62-04bfdc8cb161)
 
 **Preferences**
 
-![Preferences](/.github/screenshots/screenshot-preferences.png)
+![Preferences](https://github.com/user-attachments/assets/d0d3058a-65e1-4a5a-b0ba-4f5b6cf6bef2)
 
 ## Features
 
 - **170+ fiat currencies** — full ISO 4217 coverage
-- **Top 10 cryptocurrencies** — BTC, ETH, USDT, BNB, XRP, USDC, SOL, TRX, DOGE, ADA with proper symbols (₿, Ξ, Ð, ₳…) and satoshi-level precision, add your own
+- **Top 10 cryptocurrencies** — BTC, ETH, USDT, BNB, XRP, USDC, SOL, TRX, DOGE, ADA with proper symbols (₿, Ξ, Ð, ₳…) and satoshi-level precision, or add your own
 - **Multiple providers** — 3 free (no API key needed) + 3 with optional API keys; automatic fallback if a provider times out
 - **Smart caching** — rates cached per currency pair, configurable TTL (30 s to 24 h), stale results shown instantly while a fresh fetch runs in the background
 - **Reversed conversion detection** — typing `cc 500 eur` when your defaults are USD → EUR automatically runs EUR → USD and says so
