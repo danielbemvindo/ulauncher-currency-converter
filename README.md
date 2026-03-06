@@ -52,7 +52,7 @@ Convert between 170+ fiat currencies and the top 10 cryptocurrencies without lea
 ## Installation
 
 1. Open Ulauncher preferences → **Extensions** → **Add extension**
-2. Paste the URL of this repository
+2. Paste the URL of this repository: https://github.com/danielbemvindo/ulauncher-currency-converter.git
 3. Click **Add**
 
 Dependencies (`requests` and `babel`) are installed automatically by Ulauncher.
